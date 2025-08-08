@@ -6,7 +6,6 @@ After=basic.target
 User=root
 Type=simple
 ExecStart=/usr/bin/hello
-ExecStopPost=/usr/bin/kill $MAINPID
 RemainAfterExit=no
 Restart=always
 RestartSec=5
